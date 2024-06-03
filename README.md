@@ -41,7 +41,7 @@ Korea Car License Plate Image Dataset URL(https://universe.roboflow.com/hyunjin/
 
 동영상 프레임별 번호판 인식 및 OCR 인식
 
-## 7. Result:
+## 6. Result:
 
 ### 1) Train Result:
 
@@ -65,7 +65,7 @@ Korea Car License Plate Image Dataset URL(https://universe.roboflow.com/hyunjin/
 ![스크린샷 2024-06-03 오후 11 31 30](https://github.com/ssuzzang/Car_Plate_Detection_OCR/assets/97435321/9f781ee6-0dfe-4441-8269-c600cf9494bd)
 
 
-## 8. Post processing & 고찰:
+## 7. Post processing & 고찰:
 
 1) 단일 이미지 예측시 문제 발생에 따른 후처리 진행
 
