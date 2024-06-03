@@ -6,6 +6,7 @@
 
 3. Data Preprocessing
 
+Image:
 1) Resize: 640 x 640
 2) Flip: Horizontal, Vertical
 3) 90° Rotate: Clockwise, Counter-Clockwise, Upside Down
@@ -16,3 +17,23 @@
 example:
 
 ![image](https://github.com/ssuzzang/Car_Plate_Detection_OCR/assets/97435321/3c120df8-eb11-4aba-beb9-db7e4e484f5f)
+![image](https://github.com/ssuzzang/Car_Plate_Detection_OCR/assets/97435321/ace7389c-c5c0-4375-9f26-67031fcc6826)
+
+4. Method
+   4-1)
+   ![image](https://github.com/ssuzzang/Car_Plate_Detection_OCR/assets/97435321/00ba1601-3c34-42bd-92c9-d0a80e6af7d2)
+
+   model: YoloV9c
+
+   ![스크린샷 2024-06-03 오후 9 53 49](https://github.com/ssuzzang/Car_Plate_Detection_OCR/assets/97435321/62415ef7-fa7b-4bf4-abd7-0492c1ede8c8)
+
+
+6. Post processing:
+
+동영상 프레임별 번호판 인식 및 OCR 인식
+
+
+
+
+reference:
+1. YoloV9: https://docs.ultralytics.com/ko/models/yolov9/
