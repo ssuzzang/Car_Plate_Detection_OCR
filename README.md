@@ -60,9 +60,15 @@ Korea Car License Plate Image Dataset URL(https://universe.roboflow.com/hyunjin/
 
 
 
-### 3) 동영상 예측결과: 
+### 3) 동영상 예측결과:
 
-![스크린샷 2024-06-03 오후 11 31 30](https://github.com/ssuzzang/Car_Plate_Detection_OCR/assets/97435321/9f781ee6-0dfe-4441-8269-c600cf9494bd)
+동영상 프레임을 앞에서 부터 한장씩 번호판 탐지 및 글자인식 진행, 이때 번호판 바운딩박스가 프레임의 중앙(1/3 ~ 2/3 사이) 지점에 왔을때와, 글자인식이 앞에 숫자2~3개, 중앙에 글자, 뒤에 숫자4개가 와야 번호판으로 판정하고 출력.
+화질에 따라서 글자와 숫자가 다르게 인식되지만, 버스 조회와 같은 비교 번호판 리스트가 있으면 사용이 가능할 것이라고 생각한다.
+
+![스크린샷 2024-06-03 오후 11 56 39](https://github.com/ssuzzang/Car_Plate_Detection_OCR/assets/97435321/c8357dc0-0a64-457d-999f-4420ab3fa91a)
+ 
+
+
 
 
 ## 7. Post processing & 고찰:
