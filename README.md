@@ -62,13 +62,12 @@ Korea Car License Plate Image Dataset URL(https://universe.roboflow.com/hyunjin/
 
 ### 3) 동영상 예측결과: 
 
-
-
-
-
+![스크린샷 2024-06-03 오후 11 31 30](https://github.com/ssuzzang/Car_Plate_Detection_OCR/assets/97435321/9f781ee6-0dfe-4441-8269-c600cf9494bd)
 
 
 ## 8. Post processing & 고찰:
+
+1) 단일 이미지 예측시 문제 발생에 따른 후처리 진행
 
 번호판 인식을 할때 봉인과 나사가 숫자 또는 글자로 인식하는 문제 발생. 
 그로 인해서 정규표현식을 통하여 숫자와 비숫자를 분리하여 각각 글자 앞뒤의 번호 갯수에 따라 슬라이싱으로 후처리를 진행하였음.
@@ -78,7 +77,7 @@ Korea Car License Plate Image Dataset URL(https://universe.roboflow.com/hyunjin/
 ![스크린샷 2024-06-03 오후 11 00 57](https://github.com/ssuzzang/Car_Plate_Detection_OCR/assets/97435321/2e5bac40-633d-421c-b5c7-4448ee7603c2)
 
 
-
+2) 동영상 예측시 문제 발생에 따른 후처리 진행
 
 자동차가 정면에서가 아닌 측면에서 있을때 바운딩 박스내에 많은 공간을 포함하여 번호판을 인식하는 것으로 파악되었고, 이를 통해 OCR 성능이 저하되는것을 볼 수 있었다.
 그로인해 숫자와 글자 인식 성능을 높이기 위하여 자동차가 화면 중앙에 있을때 인식할 수 있도록 조건문을 만들었고, 번호판 규칙을 통해 가운데에 문자가 있고 앞뒤로 숫자가 있는 신형 번호판의 규칙을 정규 표현식으로 검증하는 조건문을 만들어서
@@ -89,4 +88,4 @@ Korea Car License Plate Image Dataset URL(https://universe.roboflow.com/hyunjin/
 
 
 ## 8. Reference:
-1. YoloV9: https://docs.ultralytics.com/ko/models/yolov9/
+1. YoloV9: https://docs.ultralytics.com/ko/models/yolov9c
