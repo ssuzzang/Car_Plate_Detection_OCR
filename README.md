@@ -2,7 +2,7 @@
 
 # 프로젝트 명: 자동차 번호판 번호 및 글자 인식
 
-## 1. 기간: 2024.05 ~ 06
+## 1. 기간: 2024.05 ~ 2024. 06
 
 ## 2. Skills: 
 ### Opencv, Easyocr, Roboflow, Ultralytics, Numpy ,Maplotlib, Regular Expression
