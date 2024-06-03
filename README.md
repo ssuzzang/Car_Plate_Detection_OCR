@@ -1,6 +1,8 @@
 # Car_Plate_Detection_OCR
 
-# 자동차 번호판 번호 및 글자 인식
+# 프로젝트 명: 자동차 번호판 번호 및 글자 인식
+
+## 1. 기간: 2024.05 ~ 06
 
 ## 2. Dataset: 
 Korea Car License Plate Image Dataset URL(https://universe.roboflow.com/hyunjin/korea-car-license-plate/dataset/2)
